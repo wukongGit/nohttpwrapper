@@ -16,4 +16,5 @@
 #   public *;
 #}
 -ignorewarnings                # 抑制警告
--keep class com.sunc.**{*;}
+-keep class com.sunc.controller.BaseController {*;}
+-keep class com.sunc.controller.BaseController.CommonUpdateViewAsyncCallback {*;}
