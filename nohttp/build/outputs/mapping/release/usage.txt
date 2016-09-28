@@ -1,0 +1,475 @@
+com.yolanda.nohttp.BasicBinary
+com.yolanda.nohttp.BasicBinary$UploadPoster
+com.yolanda.nohttp.BasicClientRequest:
+    public abstract void setHostnameVerifier(javax.net.ssl.HostnameVerifier)
+    public abstract void setConnectTimeout(int)
+    public abstract void setReadTimeout(int)
+    public abstract void addHeader(java.lang.String,java.lang.String)
+    public abstract void addHeader(java.net.HttpCookie)
+    public abstract void setHeader(java.net.HttpCookie)
+    public abstract void removeHeader(java.lang.String)
+    public abstract void removeAllHeader()
+    public abstract void setAccept(java.lang.String)
+    public abstract void setAcceptLanguage(java.lang.String)
+    public abstract void setContentType(java.lang.String)
+    public abstract void setUserAgent(java.lang.String)
+    public abstract void setParamsEncoding(java.lang.String)
+    public abstract void add(java.lang.String,int)
+    public abstract void add(java.lang.String,boolean)
+    public abstract void add(java.lang.String,char)
+    public abstract void add(java.lang.String,double)
+    public abstract void add(java.lang.String,float)
+    public abstract void add(java.lang.String,short)
+    public abstract void add(java.lang.String,byte)
+    public abstract void add(java.lang.String,java.lang.String)
+    public abstract void set(java.lang.String,java.lang.String)
+    public abstract void add(java.lang.String,com.yolanda.nohttp.Binary)
+    public abstract void add(java.lang.String,java.io.File)
+    public abstract void add(java.util.Map)
+    public abstract void set(java.util.Map)
+    public abstract void add(java.lang.String,java.util.List)
+    public abstract void set(java.lang.String,java.util.List)
+    public abstract java.util.List remove(java.lang.String)
+    public abstract void removeAll()
+    public abstract com.yolanda.nohttp.tools.MultiValueMap getParamKeyValues()
+    public abstract void setDefineRequestBody(java.io.InputStream,java.lang.String)
+    public abstract void setDefineRequestBody(java.lang.String,java.lang.String)
+    public abstract void setDefineRequestBodyForJson(java.lang.String)
+    public abstract void setDefineRequestBodyForJson(org.json.JSONObject)
+    public abstract void setDefineRequestBodyForXML(java.lang.String)
+    public abstract void setRedirectHandler(com.yolanda.nohttp.RedirectHandler)
+    public abstract void setTag(java.lang.Object)
+com.yolanda.nohttp.BasicConnection:
+    397:397:public static boolean hasDownload(com.yolanda.nohttp.RequestMethod,int)
+    407:407:public static boolean hasDownload(int)
+com.yolanda.nohttp.BasicRequest:
+    153:154:public BasicRequest(java.lang.String)
+    179:180:public void setPriority(com.yolanda.nohttp.Priority)
+    248:249:public void setHostnameVerifier(javax.net.ssl.HostnameVerifier)
+    258:259:public void setConnectTimeout(int)
+    268:269:public void setReadTimeout(int)
+    278:279:public void addHeader(java.lang.String,java.lang.String)
+    283:285:public void addHeader(java.net.HttpCookie)
+    294:296:public void setHeader(java.net.HttpCookie)
+    300:301:public void removeHeader(java.lang.String)
+    305:306:public void removeAllHeader()
+    320:320:public java.lang.String getAccept()
+    325:326:public void setAcceptLanguage(java.lang.String)
+    330:330:public java.lang.String getAcceptLanguage()
+    346:347:public void setContentType(java.lang.String)
+    365:366:public void setUserAgent(java.lang.String)
+    370:370:public java.lang.String getUserAgent()
+    375:376:public void setParamsEncoding(java.lang.String)
+    387:388:public void add(java.lang.String,int)
+    397:398:public void add(java.lang.String,boolean)
+    402:403:public void add(java.lang.String,char)
+    407:408:public void add(java.lang.String,double)
+    412:413:public void add(java.lang.String,float)
+    417:418:public void add(java.lang.String,short)
+    422:423:public void add(java.lang.String,byte)
+    434:435:public void add(java.lang.String,com.yolanda.nohttp.Binary)
+    439:440:public void add(java.lang.String,java.io.File)
+    444:449:public void add(java.lang.String,java.util.List)
+    453:455:public void set(java.lang.String,java.lang.String)
+    459:464:public void set(java.lang.String,java.util.List)
+    468:472:public void add(java.util.Map)
+    476:481:public void set(java.util.Map)
+    485:485:public java.util.List remove(java.lang.String)
+    490:491:public void removeAll()
+    500:508:public void setDefineRequestBody(java.io.InputStream,java.lang.String)
+    512:521:public void setDefineRequestBody(java.lang.String,java.lang.String)
+    525:527:public void setDefineRequestBodyForJson(java.lang.String)
+    531:533:public void setDefineRequestBodyForJson(org.json.JSONObject)
+    537:539:public void setDefineRequestBodyForXML(java.lang.String)
+    556:556:protected java.io.InputStream getDefineRequestBody()
+    680:681:public void setRedirectHandler(com.yolanda.nohttp.RedirectHandler)
+    690:691:public void setTag(java.lang.Object)
+    715:715:public boolean isStarted()
+    725:725:public boolean isFinished()
+    755:756:public void setCancelSign(java.lang.Object)
+    824:824:public static java.lang.String defaultAcceptLanguage()
+com.yolanda.nohttp.BasicServerRequest:
+    public abstract java.lang.String getAccept()
+    public abstract java.lang.String getAcceptLanguage()
+    public abstract java.lang.String getUserAgent()
+com.yolanda.nohttp.BitmapBinary
+com.yolanda.nohttp.BuildConfig
+com.yolanda.nohttp.ByteArrayBinary
+com.yolanda.nohttp.Connection:
+    88:89:void setResponseHeaders(com.yolanda.nohttp.Headers)
+    106:107:void setServerStream(java.io.InputStream)
+    124:125:void setException(java.lang.Exception)
+com.yolanda.nohttp.FileBinary
+com.yolanda.nohttp.Headers:
+    public static final java.lang.String HEAD_KEY_RESPONSE_CODE
+    public static final java.lang.String HEAD_KEY_RESPONSE_MESSAGE
+    public static final java.lang.String HEAD_KEY_ACCEPT
+    public static final java.lang.String HEAD_VALUE_ACCEPT_ALL
+    public static final java.lang.String HEAD_VALUE_ACCEPT_APPLICATION_X_WWW_FORM_URLENCODED
+    public static final java.lang.String HEAD_VALUE_ACCEPT_MULTIPART_FORM_DATA
+    public static final java.lang.String HEAD_VALUE_ACCEPT_APPLICATION_OCTET_STREAM
+    public static final java.lang.String HEAD_VALUE_ACCEPT_APPLICATION_JSON
+    public static final java.lang.String HEAD_VALUE_ACCEPT_APPLICATION_XML
+    public static final java.lang.String HEAD_KEY_ACCEPT_ENCODING
+    public static final java.lang.String HEAD_VALUE_ACCEPT_ENCODING_GZIP_DEFLATE
+    public static final java.lang.String HEAD_KEY_ACCEPT_LANGUAGE
+    public static final java.lang.String HEAD_KEY_ACCEPT_RANGE
+    public static final java.lang.String HEAD_KEY_CONTENT_DISPOSITION
+    public static final java.lang.String HEAD_KEY_CONTENT_ENCODING
+    public static final java.lang.String HEAD_KEY_CONTENT_LENGTH
+    public static final java.lang.String HEAD_KEY_CONTENT_RANGE
+    public static final java.lang.String HEAD_KEY_CONTENT_TYPE
+    public static final java.lang.String HEAD_KEY_CACHE_CONTROL
+    public static final java.lang.String HEAD_KEY_CONNECTION
+    public static final java.lang.String HEAD_VALUE_CONNECTION_KEEP_ALIVE
+    public static final java.lang.String HEAD_VALUE_CONNECTION_CLOSE
+    public static final java.lang.String HEAD_KEY_DATE
+    public static final java.lang.String HEAD_KEY_EXPIRES
+    public static final java.lang.String HEAD_KEY_E_TAG
+    public static final java.lang.String HEAD_KEY_PRAGMA
+    public static final java.lang.String HEAD_KEY_IF_MODIFIED_SINCE
+    public static final java.lang.String HEAD_KEY_IF_NONE_MATCH
+    public static final java.lang.String HEAD_KEY_LAST_MODIFIED
+    public static final java.lang.String HEAD_KEY_LOCATION
+    public static final java.lang.String HEAD_KEY_USER_AGENT
+    public static final java.lang.String HEAD_KEY_COOKIE
+    public static final java.lang.String HEAD_KEY_COOKIE2
+    public static final java.lang.String HEAD_KEY_SET_COOKIE
+    public static final java.lang.String HEAD_KEY_SET_COOKIE2
+    public abstract void addAll(com.yolanda.nohttp.Headers)
+    public abstract java.util.Map toResponseHeaders()
+    public abstract java.util.List getCookies()
+    public abstract java.lang.String getResponseMessage()
+com.yolanda.nohttp.HttpHeaders:
+    62:68:public void addAll(com.yolanda.nohttp.Headers)
+    143:143:public java.util.Map toResponseHeaders()
+    148:158:public java.util.List getCookies()
+    213:213:public java.lang.String getResponseMessage()
+com.yolanda.nohttp.IPriority:
+    public abstract void setPriority(com.yolanda.nohttp.Priority)
+com.yolanda.nohttp.InputStreamBinary
+com.yolanda.nohttp.Logger:
+    public static final java.lang.String V
+    public static final java.lang.String I
+    public static final java.lang.String D
+    public static final java.lang.String W
+    public static final java.lang.String E
+    public static final java.lang.String WTF
+    private static final int MAX_LENGTH
+    25:25:public Logger()
+    57:58:public static void setTag(java.lang.String)
+    66:67:public static void setDebug(boolean)
+    75:76:public static void setMessageMaxLength(int)
+    83:84:public static void i(java.lang.Throwable)
+    87:88:public static void i(java.lang.Throwable,java.lang.String)
+    91:92:public static void v(java.lang.String)
+    95:96:public static void v(java.lang.Throwable)
+    99:100:public static void v(java.lang.Throwable,java.lang.String)
+    107:108:public static void d(java.lang.Throwable)
+    111:112:public static void d(java.lang.Throwable,java.lang.String)
+    139:140:public static void wtf(java.lang.String)
+    143:144:public static void wtf(java.lang.Throwable)
+    147:148:public static void wtf(java.lang.Throwable,java.lang.String)
+com.yolanda.nohttp.NoHttp:
+    public static final java.lang.String APPLICATION_X_WWW_FORM_URLENCODED
+    public static final java.lang.String MULTIPART_FORM_DATA
+    public static final java.lang.String APPLICATION_OCTET_STREAM
+    public static final java.lang.String APPLICATION_JSON
+    public static final java.lang.String APPLICATION_XML
+    public static final java.lang.String CHARSET_UTF8
+    private static final int DEFAULT_THREAD_SIZE
+    public static final int TIMEOUT_8S
+    237:237:public static com.yolanda.nohttp.rest.Request createStringRequest(java.lang.String)
+    249:249:public static com.yolanda.nohttp.rest.Request createStringRequest(java.lang.String,com.yolanda.nohttp.RequestMethod)
+    260:260:public static com.yolanda.nohttp.rest.Request createJsonObjectRequest(java.lang.String)
+    283:283:public static com.yolanda.nohttp.rest.Request createJsonArrayRequest(java.lang.String)
+    295:295:public static com.yolanda.nohttp.rest.Request createJsonArrayRequest(java.lang.String,com.yolanda.nohttp.RequestMethod)
+    307:307:public static com.yolanda.nohttp.rest.Request createImageRequest(java.lang.String)
+    320:320:public static com.yolanda.nohttp.rest.Request createImageRequest(java.lang.String,com.yolanda.nohttp.RequestMethod)
+    337:337:public static com.yolanda.nohttp.rest.Request createImageRequest(java.lang.String,com.yolanda.nohttp.RequestMethod,int,int,android.graphics.Bitmap$Config,android.widget.ImageView$ScaleType)
+    351:351:public static com.yolanda.nohttp.rest.Response startRequestSync(com.yolanda.nohttp.rest.Request)
+    366:366:public static com.yolanda.nohttp.rest.Response startRequestSync(com.yolanda.nohttp.cache.Cache,com.yolanda.nohttp.rest.Request)
+    381:381:public static com.yolanda.nohttp.rest.Response startRequestSync(com.yolanda.nohttp.rest.ImplRestConnection,com.yolanda.nohttp.rest.Request)
+    396:396:public static com.yolanda.nohttp.rest.Response startRequestSync(com.yolanda.nohttp.rest.ImplRestParser,com.yolanda.nohttp.rest.Request)
+    407:407:public static com.yolanda.nohttp.download.DownloadQueue newDownloadQueue()
+    447:447:public static com.yolanda.nohttp.download.DownloadRequest createDownloadRequest(java.lang.String,java.lang.String,boolean)
+    461:461:public static com.yolanda.nohttp.download.DownloadRequest createDownloadRequest(java.lang.String,com.yolanda.nohttp.RequestMethod,java.lang.String,boolean)
+    476:476:public static com.yolanda.nohttp.download.DownloadRequest createDownloadRequest(java.lang.String,java.lang.String,java.lang.String,boolean,boolean)
+    492:492:public static com.yolanda.nohttp.download.DownloadRequest createDownloadRequest(java.lang.String,com.yolanda.nohttp.RequestMethod,java.lang.String,java.lang.String,boolean,boolean)
+    501:501:public static java.lang.String versionName()
+    510:510:public static int versionCode()
+    521:522:public static void init(android.app.Application)
+    558:564:public static void setDefaultAuthenticator(java.net.PasswordAuthentication)
+    572:573:public static void setDefaultConnectTimeout(int)
+    590:591:public static void setDefaultReadTimeout(int)
+    608:609:public static void setDefaultRequestThreadSize(int)
+    617:617:public static int getDefaultRequestThreadSize()
+    626:627:public static void setDefaultDownloadThreadSize(int)
+    635:635:public static int getDefaultDownloadThreadSize()
+    644:645:public static void setEnableCookie(boolean)
+    664:667:public static void setDefaultCookieHandler(java.net.CookieHandler)
+    678:679:private NoHttp()
+com.yolanda.nohttp.NoHttp$1
+com.yolanda.nohttp.OnUploadListener
+com.yolanda.nohttp.SimpleUploadListener
+com.yolanda.nohttp.UserAgent:
+    29:29:public UserAgent()
+    40:40:public static java.lang.String getUserAgent()
+com.yolanda.nohttp.able.Finishable:
+    public abstract boolean isFinished()
+com.yolanda.nohttp.able.SignCancelable:
+    public abstract void setCancelSign(java.lang.Object)
+com.yolanda.nohttp.able.Startable:
+    public abstract boolean isStarted()
+com.yolanda.nohttp.cache.Cache:
+    public abstract boolean remove(java.lang.String)
+    public abstract boolean clear()
+com.yolanda.nohttp.cache.CacheDisk:
+    public static final java.lang.String DB_CACHE_NAME
+    public static final int DB_CACHE_VERSION
+    public static final java.lang.String TABLE_NAME
+    public static final java.lang.String KEY
+    public static final java.lang.String HEAD
+    public static final java.lang.String DATA
+    public static final java.lang.String LOCAL_EXPIRES
+    private static final java.lang.String SQL_CREATE_TABLE
+    private static final java.lang.String SQL_CREATE_UNIQUE_INDEX
+    private static final java.lang.String SQL_DELETE_TABLE
+    private static final java.lang.String SQL_DELETE_UNIQUE_INDEX
+com.yolanda.nohttp.cache.CacheEntity:
+    private static final long serialVersionUID
+    47:75:public CacheEntity(long,java.lang.String,com.yolanda.nohttp.Headers,byte[],long)
+com.yolanda.nohttp.cache.DiskCacheStore:
+    76:83:public boolean remove(java.lang.String)
+    89:93:public boolean clear()
+com.yolanda.nohttp.cookie.CookieDisk:
+    public static final java.lang.String DB_COOKIE_NAME
+    public static final int DB_COOKIE_VERSION
+    public static final java.lang.String TABLE_NAME
+    public static final java.lang.String URI
+    public static final java.lang.String NAME
+    public static final java.lang.String VALUE
+    public static final java.lang.String COMMENT
+    public static final java.lang.String COMMENT_URL
+    public static final java.lang.String DISCARD
+    public static final java.lang.String DOMAIN
+    public static final java.lang.String EXPIRY
+    public static final java.lang.String PATH
+    public static final java.lang.String PORT_LIST
+    public static final java.lang.String SECURE
+    public static final java.lang.String VERSION
+    private static final java.lang.String SQL_CREATE_TABLE
+    private static final java.lang.String SQL_CREATE_UNIQUE_INDEX
+    private static final java.lang.String SQL_DELETE_TABLE
+    private static final java.lang.String SQL_DELETE_UNIQUE_INDEX
+com.yolanda.nohttp.cookie.CookieEntity:
+    private static final long serialVersionUID
+com.yolanda.nohttp.cookie.DiskCookieStore:
+    private static final int MAX_COOKIE_SIZE
+    77:78:public void setCookieStoreListener(com.yolanda.nohttp.cookie.CookieStoreListener)
+com.yolanda.nohttp.db.DBManager:
+    private static final boolean DEBUG
+com.yolanda.nohttp.db.Field
+com.yolanda.nohttp.db.Where:
+    140:140:public final com.yolanda.nohttp.db.Where andNull(java.lang.CharSequence)
+    168:168:public final com.yolanda.nohttp.db.Where or(com.yolanda.nohttp.db.Where)
+com.yolanda.nohttp.download.DownloadDispatcher$ThreadPoster:
+    public static final int COMMAND_START
+    public static final int COMMAND_PROGRESS
+    public static final int COMMAND_ERROR
+    public static final int COMMAND_FINISH
+    public static final int COMMAND_CANCEL
+com.yolanda.nohttp.download.DownloadQueue:
+    85:94:public void add(int,com.yolanda.nohttp.download.DownloadRequest,com.yolanda.nohttp.download.DownloadListener)
+    112:116:public void cancelBySign(java.lang.Object)
+    122:126:public void cancelAll()
+com.yolanda.nohttp.download.DownloadRequest:
+    public static final int STATUS_RESTART
+    public static final int STATUS_RESUME
+    public static final int STATUS_FINISH
+    public abstract int checkBeforeStatus()
+    public abstract void onPreResponse(int,com.yolanda.nohttp.download.DownloadListener)
+com.yolanda.nohttp.download.RestDownloadRequest
+com.yolanda.nohttp.error.ArgumentError:
+    private static final long serialVersionUID
+    35:36:public ArgumentError(java.lang.String,java.lang.Throwable)
+    39:40:public ArgumentError(java.lang.Throwable)
+com.yolanda.nohttp.error.NetworkError:
+    private static final long serialVersionUID
+    36:37:public NetworkError(java.lang.String,java.lang.Throwable)
+    40:41:public NetworkError(java.lang.Throwable)
+com.yolanda.nohttp.error.NotFoundCacheError:
+    private static final long serialVersionUID
+    35:36:public NotFoundCacheError(java.lang.String,java.lang.Throwable)
+    39:40:public NotFoundCacheError(java.lang.Throwable)
+com.yolanda.nohttp.error.ParseError:
+    33:34:public ParseError(java.lang.String,java.lang.Throwable)
+    37:38:public ParseError(java.lang.Throwable)
+com.yolanda.nohttp.error.ServerError:
+    private static final long serialVersionUID
+    37:38:public ServerError(java.lang.String,java.lang.Throwable)
+    41:42:public ServerError(java.lang.Throwable)
+    50:50:public java.lang.String getErrorBody()
+com.yolanda.nohttp.error.StorageReadWriteError:
+    private static final long serialVersionUID
+    35:36:public StorageReadWriteError(java.lang.String,java.lang.Throwable)
+    39:40:public StorageReadWriteError(java.lang.Throwable)
+com.yolanda.nohttp.error.StorageSpaceNotEnoughError:
+    private static final long serialVersionUID
+    36:37:public StorageSpaceNotEnoughError(java.lang.String,java.lang.Throwable)
+    40:41:public StorageSpaceNotEnoughError(java.lang.Throwable)
+com.yolanda.nohttp.error.TimeoutError:
+    private static final long serialVersionUID
+    36:37:public TimeoutError(java.lang.String,java.lang.Throwable)
+    40:41:public TimeoutError(java.lang.Throwable)
+com.yolanda.nohttp.error.URLError:
+    private static final long serialVersionUID
+    36:37:public URLError(java.lang.String,java.lang.Throwable)
+    40:41:public URLError(java.lang.Throwable)
+com.yolanda.nohttp.error.UnKnownHostError:
+    private static final long serialVersionUID
+    36:37:public UnKnownHostError(java.lang.String,java.lang.Throwable)
+    40:41:public UnKnownHostError(java.lang.Throwable)
+com.yolanda.nohttp.rest.DefaultResponse:
+    109:109:public int responseCode()
+    114:114:public java.lang.String responseMesage()
+    119:119:public com.yolanda.nohttp.RequestMethod getRequestMethod()
+    129:129:public boolean isFromCache()
+    139:139:public java.util.List getCookies()
+    144:144:public byte[] getByteArray()
+com.yolanda.nohttp.rest.HttpResponse:
+    66:67:void setResponseHeaders(com.yolanda.nohttp.Headers)
+    84:85:void setResponseBody(byte[])
+    102:103:void setFromCache(boolean)
+    120:121:void setException(java.lang.Exception)
+com.yolanda.nohttp.rest.ImageRequest
+com.yolanda.nohttp.rest.ImplClientRequest:
+    public abstract void setCacheKey(java.lang.String)
+    public abstract void setCacheMode(com.yolanda.nohttp.rest.CacheMode)
+    public abstract void setRetryCount(int)
+com.yolanda.nohttp.rest.JsonArrayRequest
+com.yolanda.nohttp.rest.JsonObjectRequest:
+    public static final java.lang.String ACCEPT
+    39:40:public JsonObjectRequest(java.lang.String)
+com.yolanda.nohttp.rest.Request:
+    public abstract java.lang.Object parseResponse(java.lang.String,com.yolanda.nohttp.Headers,byte[])
+com.yolanda.nohttp.rest.RequestDispatcher$ThreadPoster:
+    public static final int COMMAND_START
+    public static final int COMMAND_RESPONSE
+    public static final int COMMAND_FINISH
+com.yolanda.nohttp.rest.Response:
+    public abstract int responseCode()
+    public abstract java.lang.String responseMesage()
+    public abstract com.yolanda.nohttp.RequestMethod getRequestMethod()
+    public abstract boolean isFromCache()
+    public abstract java.util.List getCookies()
+    public abstract byte[] getByteArray()
+    public abstract java.lang.Object get()
+com.yolanda.nohttp.rest.RestRequest:
+    50:64:public RestRequest(java.lang.String)
+    78:79:public void setCacheKey(java.lang.String)
+    88:89:public void setCacheMode(com.yolanda.nohttp.rest.CacheMode)
+    98:99:public void setRetryCount(int)
+com.yolanda.nohttp.rest.SimpleResponseListener
+com.yolanda.nohttp.rest.StringRequest:
+    31:32:public StringRequest(java.lang.String)
+    54:54:public static java.lang.String parseResponseString(java.lang.String,com.yolanda.nohttp.Headers,byte[])
+com.yolanda.nohttp.tools.AndroidVersion
+com.yolanda.nohttp.tools.BasicMultiValueMap:
+    89:94:public java.util.List values()
+    122:122:public boolean isEmpty()
+    127:127:public boolean containsKey(java.lang.Object)
+    131:131:public java.util.Map getSource()
+com.yolanda.nohttp.tools.Encryption
+com.yolanda.nohttp.tools.HeaderParser
+com.yolanda.nohttp.tools.HeaderUtil:
+    public static final java.lang.String FORMAT_HTTP_DATA
+    36:36:public HeaderUtil()
+com.yolanda.nohttp.tools.HttpDateTime
+com.yolanda.nohttp.tools.IOUtils:
+    52:52:public IOUtils()
+    78:78:public static java.io.BufferedInputStream toBufferedInputStream(java.io.InputStream)
+    86:86:public static java.io.BufferedReader toBufferedReader(java.io.Reader)
+    90:90:public static java.io.BufferedWriter toBufferedWriter(java.io.Writer)
+    94:94:public static java.io.InputStream toInputStream(java.lang.CharSequence)
+    98:99:public static java.io.InputStream toInputStream(java.lang.CharSequence,java.lang.String)
+    107:107:public static java.lang.String toString(java.io.InputStream,java.lang.String)
+    111:111:public static java.lang.String toString(java.io.Reader)
+    115:115:public static java.lang.String toString(java.io.Reader,java.lang.String)
+    119:119:public static java.lang.String toString(byte[])
+    131:133:public static byte[] toByteArray(java.lang.CharSequence)
+    137:140:public static byte[] toByteArray(java.lang.CharSequence,java.lang.String)
+    151:165:public static byte[] toByteArray(java.io.InputStream,int)
+    169:172:public static byte[] toByteArray(java.io.Reader)
+    176:179:public static byte[] toByteArray(java.io.Reader,java.lang.String)
+    183:185:public static char[] toCharArray(java.lang.CharSequence)
+    189:191:public static char[] toCharArray(java.io.InputStream)
+    195:197:public static char[] toCharArray(java.io.InputStream,java.lang.String)
+    201:203:public static char[] toCharArray(java.io.Reader)
+    207:208:public static java.util.List readLines(java.io.InputStream,java.lang.String)
+    212:213:public static java.util.List readLines(java.io.InputStream)
+    217:224:public static java.util.List readLines(java.io.Reader)
+    228:230:public static void write(byte[],java.io.OutputStream)
+    233:235:public static void write(byte[],java.io.Writer)
+    238:240:public static void write(byte[],java.io.Writer,java.lang.String)
+    243:245:public static void write(char[],java.io.Writer)
+    248:250:public static void write(char[],java.io.OutputStream)
+    253:255:public static void write(char[],java.io.OutputStream,java.lang.String)
+    258:260:public static void write(java.lang.CharSequence,java.io.Writer)
+    263:265:public static void write(java.lang.CharSequence,java.io.OutputStream)
+    268:270:public static void write(java.lang.CharSequence,java.io.OutputStream,java.lang.String)
+    280:283:public static void write(java.io.Reader,java.io.OutputStream)
+    286:288:public static void write(java.io.InputStream,java.io.Writer)
+    291:294:public static void write(java.io.Reader,java.io.OutputStream,java.lang.String)
+    297:299:public static void write(java.io.InputStream,java.io.OutputStream,java.lang.String)
+    302:304:public static void write(java.io.InputStream,java.io.Writer,java.lang.String)
+    308:311:public static void write(java.io.Reader,java.io.Writer)
+    314:327:public static boolean contentEquals(java.io.InputStream,java.io.InputStream)
+    331:344:public static boolean contentEquals(java.io.Reader,java.io.Reader)
+    348:357:public static boolean contentEqualsIgnoreEOL(java.io.Reader,java.io.Reader)
+    413:413:public static boolean canRead(java.lang.String)
+    452:452:public static boolean createNewFolder(java.lang.String)
+    462:462:public static boolean createNewFolder(java.io.File)
+    472:476:public static boolean createFile(java.lang.String)
+    486:494:public static boolean createFile(java.io.File)
+    505:509:public static boolean createNewFile(java.lang.String)
+    537:537:public static boolean deleteFolder(java.lang.String)
+    549:549:public static boolean deleteFolder(java.io.File)
+    560:560:public static boolean delFileOrFolder(java.lang.String)
+com.yolanda.nohttp.tools.ImageDownloader
+com.yolanda.nohttp.tools.ImageDownloader$1
+com.yolanda.nohttp.tools.ImageDownloader$DownImageThread
+com.yolanda.nohttp.tools.ImageDownloader$ImageHolder
+com.yolanda.nohttp.tools.ImageDownloader$OnImageDownListener
+com.yolanda.nohttp.tools.ImageLocalLoader
+com.yolanda.nohttp.tools.ImageLocalLoader$1
+com.yolanda.nohttp.tools.ImageLocalLoader$ImageLoadListener
+com.yolanda.nohttp.tools.ImageLocalLoader$ImgBeanHolder
+com.yolanda.nohttp.tools.ImageLocalLoader$TaskThread
+com.yolanda.nohttp.tools.LruCache
+com.yolanda.nohttp.tools.MultiValueMap:
+    public abstract void add(java.lang.Object,java.lang.Object)
+    public abstract void add(java.lang.Object,java.util.List)
+    public abstract void set(java.lang.Object,java.util.List)
+    public abstract void clear()
+    public abstract java.util.List values()
+    public abstract java.util.Set entrySet()
+    public abstract boolean isEmpty()
+    public abstract boolean containsKey(java.lang.Object)
+com.yolanda.nohttp.tools.NetUtil:
+    private static final java.lang.String ANDROID_PROVIDER_SETTINGS
+    43:43:public NetUtil()
+    62:66:public static void openSetting()
+    70:78:private static void openSetting(java.lang.String)
+    95:95:public static boolean isWifiConnected()
+    104:104:public static boolean isMobileConnected()
+    178:186:public static boolean isGPRSOpen()
+    195:203:public static void setGPRSEnable(boolean)
+    211:232:public static java.lang.String getLocalIPAddress()
+    247:247:public static boolean isIPv4Address(java.lang.String)
+    266:266:public static boolean isIPv6StdAddress(java.lang.String)
+    277:283:public static boolean isIPv6HexCompressedAddress(java.lang.String)
+    295:295:public static boolean isIPv6Address(java.lang.String)
+com.yolanda.nohttp.tools.ResCompat
+com.yolanda.nohttp.tools.TreeMultiValueMap:
+    30:31:public TreeMultiValueMap()

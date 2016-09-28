@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../crashcatch/crashcatch.iml" filepath="$PROJECT_DIR$/../crashcatch/crashcatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../imageLoader/imageLoader.iml" filepath="$PROJECT_DIR$/../imageLoader/imageLoader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nohttp.iml" filepath="$PROJECT_DIR$/nohttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../privatePro.iml" filepath="$PROJECT_DIR$/../privatePro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pullToRefresh/pullToRefresh.iml" filepath="$PROJECT_DIR$/../pullToRefresh/pullToRefresh.iml" />
+    </modules>
+  </component>
+</project>
