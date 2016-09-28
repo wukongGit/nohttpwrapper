@@ -16,5 +16,5 @@
 #   public *;
 #}
 -ignorewarnings                # 抑制警告
--keep class com.sunc.controller.BaseController {*;}
--keep class com.sunc.controller.BaseController.CommonUpdateViewAsyncCallback {*;}
+-keep class com.sunc.** {*;}
+-keepattributes Exceptions,InnerClasses,Signature,Deprecated,SourceFile,LineNumberTable,*Annotation*,EnclosingMethod

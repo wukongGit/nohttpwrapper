@@ -131,7 +131,7 @@ public class BaseController {
         };
     }
 
-    class NullCallback extends CommonUpdateViewAsyncCallback<Void> {
+    public class NullCallback extends CommonUpdateViewAsyncCallback<Void> {
         @Override
         public void onPostExecute(Void articles) {
         }
