@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NohttpWrapper.iml" filepath="$PROJECT_DIR$/NohttpWrapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nohttp/nohttp.iml" filepath="$PROJECT_DIR$/nohttp/nohttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nohttpwrapper/nohttp.iml" filepath="$PROJECT_DIR$/nohttpwrapper/nohttp.iml" />
     </modules>
   </component>
 </project>
